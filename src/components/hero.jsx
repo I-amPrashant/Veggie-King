@@ -1,18 +1,17 @@
 import React from "react";
 import arrow from "../assets/icons/check-menu-icon.svg";
 import chilli from "../assets/images/hero-section-food.png";
+import food1 from "../assets/images/hero-section-slide-food-1.png"
+import food2 from "../assets/images/hero-section-slide-food-2.png"
+import food3 from "../assets/images/hero-section-slide-food-3.png"
+import food4 from "../assets/images/hero-section-slide-food-4.png"
 // import { useRef, useEffect } from 'react';
 import { register } from "swiper/element/bundle";
 
 register();
 
 export default function Hero({ scrollToSection }) {
-  const menuImages = [
-    "./src/assets/images/hero-section-slide-food-1.png",
-    "./src/assets/images/hero-section-slide-food-2.png",
-    "./src/assets/images/hero-section-slide-food-3.png",
-    "./src/assets/images/hero-section-slide-food-4.png",
-  ];
+ 
   // const swiperElRef = useRef(null);
 
   // useEffect(() => {
@@ -63,15 +62,34 @@ export default function Hero({ scrollToSection }) {
             delay="4000"
             className="relative h-full w-full rounded-full flex justify-center items-center"
           >
-            {menuImages.map((element, index) => (
-              <swiper-slide key={index}>
+              <swiper-slide >
                 <img
-                  src={element}
+                  src={food1}
                   alt="dish_image"
                   className="relative h-full w-full object-cover"
                 />
               </swiper-slide>
-            ))}
+              <swiper-slide >
+                <img
+                  src={food2}
+                  alt="dish_image"
+                  className="relative h-full w-full object-cover"
+                />
+              </swiper-slide>
+              <swiper-slide >
+                <img
+                  src={food3}
+                  alt="dish_image"
+                  className="relative h-full w-full object-cover"
+                />
+              </swiper-slide>
+              <swiper-slide >
+                <img
+                  src={food4}
+                  alt="dish_image"
+                  className="relative h-full w-full object-cover"
+                />
+              </swiper-slide>
           </swiper-container>
         </div>
       </div>
