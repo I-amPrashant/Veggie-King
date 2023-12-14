@@ -8,10 +8,10 @@ register();
 
 export default function Hero({ scrollToSection }) {
   const menuImages = [
-    "src/assets/images/hero-section-slide-food-1.png",
-    "src/assets/images/hero-section-slide-food-2.png",
-    "src/assets/images/hero-section-slide-food-3.png",
-    "src/assets/images/hero-section-slide-food-4.png",
+    "./src/assets/images/hero-section-slide-food-1.png",
+    "./src/assets/images/hero-section-slide-food-2.png",
+    "./src/assets/images/hero-section-slide-food-3.png",
+    "./src/assets/images/hero-section-slide-food-4.png",
   ];
   // const swiperElRef = useRef(null);
 
