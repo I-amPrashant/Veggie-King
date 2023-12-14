@@ -5,29 +5,29 @@ import ImageItem from "./ImageItem";
 export default function Menu() {
   const menuItems = [
     {
-      image: "src/assets/images/menu-section-mighty-burger.png",
+      image: "./assets/images/menu-section-mighty-burger.png",
       dishName: "Mighty burger",
       description: "Served with fries and drink",
     },
     {
-      image: "src/assets/images/menu-section-chickpae-salad.png",
+      image: "./assets/images/menu-section-chickpae-salad.png",
       dishName: "Chickpea's salad",
       description: "Served with fries and drink",
     },
     {
-      image: "src/assets/images/menu-section-chickpae-wrap.png",
+      image: "./assets/images/menu-section-chickpae-wrap.png",
       dishName: "Chickpea's wrap",
       description: "Served with fries and drink",
     },
   ];
 
   const galleryImages=[
-    "src/assets/images/gallery-photo-1.png",
-    "src/assets/images/gallery-photo-2.png",
-    "src/assets/images/gallery-photo-3.png",
-    "src/assets/images/gallery-photo-4.png",
-    "src/assets/images/gallery-photo-5.png",
-    "src/assets/images/gallery-photo-6.png",
+    "./assets/images/gallery-photo-1.png",
+    "./assets/images/gallery-photo-2.png",
+    "./assets/images/gallery-photo-3.png",
+    "./assets/images/gallery-photo-4.png",
+    "./assets/images/gallery-photo-5.png",
+    "./assets/images/gallery-photo-6.png",
   ]
   return (
     <>
